@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Sea Creatures that follow your mouse!</title>    
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+</head>
+<body>
+<?php include_once("analyticstracking.php") ?>
+<center>
+<iframe frameborder="0" width="100%" height="90%" id="chgMe" src="home.html">Frames are not supported on your browser.</iframe><br><br>
+<button class="pure-button pure-button-primary" onclick="document.getElementById('chgMe').src='http://img0.liveinternet.ru/images/attach/c/5/3970/3970473_sprite198.swf'">Whale</button>
+    <button class="pure-button pure-button-primary" onclick="document.getElementById('chgMe').src='http://img0.liveinternet.ru/images/attach/c/5//3970/3970472_sprite154.swf'">Shark</button>
+    <button class="pure-button pure-button-primary" onclick="document.getElementById('chgMe').src='http://img0.liveinternet.ru/images/attach/c/5//3970/3970475_sprite278.swf'">Goldfish</button>
+    <button class="pure-button pure-button-primary" onclick="document.getElementById('chgMe').src='http://img0.liveinternet.ru/images/attach/c/5//3970/3970474_sprite238.swf'">Dolpin</button>
+    <button class="pure-button pure-button-primary" onclick="document.getElementById('chgMe').src='http://img0.liveinternet.ru/images/attach/c/5//3970/3970477_sprite279.swf'">Pufferfish</button> 
+    
+    <style scoped>
+
+        .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+
+    </style>
+    
+    
+    
+
+    <button class="button-success pure-button" onclick="document.getElementById('chgMe').src='about.html'">About</button>
+   </center> 
+</body>
+</html>
